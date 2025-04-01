@@ -9,9 +9,7 @@ Ce projet est une application iOS développée en Swift avec UIKit, sans Storybo
 
 ### Installation du package via Swift Package Manager
 
-Le package est disponible via Swift Package Manager et peut être ajouté avec l’URL suivante :
-
-https://github.com/walidIos/DesignSystem.git
+Le package est disponible via Swift Package Manager et peut être ajouté avec l’URL suivante : https://github.com/walidIos/DesignSystem.git
 Ajoute le package via **Swift Package Manager** :  
 
 1. Ouvrir Xcode → `File > Add Packages...`  
