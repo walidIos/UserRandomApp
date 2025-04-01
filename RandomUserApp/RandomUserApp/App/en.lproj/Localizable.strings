@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  RandomUserApp
+
+  Created by walid on 31/3/2025.
+  
+*/
+"message_error_badUrl" = "Oops! An error has occurred. Please try again later.";
+"message_error_unauthorized" =
+    "You are not authorized to perform this action. Please check your connection.";
+"message_error_uforbidden" = "Access denied. You do not have the necessary permissions.";
+"message_error_notFound" = "We haven't found what you're looking for.";
+"message_error_internalServerError" = "Our server is experiencing a problem. Please try again later.";
+"message_error_serverError"= "An error has occurred (code \(statusCode)).";
+"message_error_requestFailed" = "Connection to the server has failed. Check your Internet connection.";
+"message_error_decodingError"= "An error has occurred during data processing. Please try again.";
+"message_error_noData" = "No data received from the server. Please try again later.";
+"message_error_unknownError" = "An unexpected error has occurred. Please try again.";
+"tittle_button_reload" = "Reloading";
+"title_view_list_contact" = "Contact list";
+"title_view_detailuser" = "User details";
+"label_phone" = "Phone:";
+"label_celullar" = "Cellular:";
+"label_adress" = "Address:";
+"label_dateofbirthday" = "Date of birth:";
+"label_username" = "Username:";
+"label_password" = "Password:";
+"label_nat" = "Nationality:";
+"label_age" = "Age:";
+"label_gender" = "Gender:";
+"label_profil" = "Profile:";
+"label_contact" = "Contact:";
+"label_connexion" = "Connection";
+"label_info" = "Further information";
+
