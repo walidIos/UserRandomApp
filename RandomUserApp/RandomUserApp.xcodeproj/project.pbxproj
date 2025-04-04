@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EEAECA52D9AC04400453D67 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 0EEAECA42D9AC04400453D67 /* DesignSystem */; };
+		0EE62F3D2D9FDEDF00997B93 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 0EE62F3C2D9FDEDF00997B93 /* DesignSystem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EEAECA52D9AC04400453D67 /* DesignSystem in Frameworks */,
+				0EE62F3D2D9FDEDF00997B93 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +140,7 @@
 			);
 			name = RandomUserApp;
 			packageProductDependencies = (
-				0EEAECA42D9AC04400453D67 /* DesignSystem */,
+				0EE62F3C2D9FDEDF00997B93 /* DesignSystem */,
 			);
 			productName = RandomUserApp;
 			productReference = 0EACF9EE2D96E65100862F87 /* RandomUserApp.app */;
@@ -226,7 +226,7 @@
 			mainGroup = 0EACF9E52D96E65100862F87;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				0EB7A2AE2D9AB52D0035A6B7 /* XCLocalSwiftPackageReference "../DesignSystem" */,
+				0EE62F3B2D9FDEBF00997B93 /* XCRemoteSwiftPackageReference "DesignSystem" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0EACF9EF2D96E65100862F87 /* Products */;
@@ -592,17 +592,21 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		0EB7A2AE2D9AB52D0035A6B7 /* XCLocalSwiftPackageReference "../DesignSystem" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../DesignSystem;
+/* Begin XCRemoteSwiftPackageReference section */
+		0EE62F3B2D9FDEBF00997B93 /* XCRemoteSwiftPackageReference "DesignSystem" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/walidIos/DesignSystem.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
 		};
-/* End XCLocalSwiftPackageReference section */
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0EEAECA42D9AC04400453D67 /* DesignSystem */ = {
+		0EE62F3C2D9FDEDF00997B93 /* DesignSystem */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0EB7A2AE2D9AB52D0035A6B7 /* XCLocalSwiftPackageReference "../DesignSystem" */;
+			package = 0EE62F3B2D9FDEBF00997B93 /* XCRemoteSwiftPackageReference "DesignSystem" */;
 			productName = DesignSystem;
 		};
 /* End XCSwiftPackageProductDependency section */

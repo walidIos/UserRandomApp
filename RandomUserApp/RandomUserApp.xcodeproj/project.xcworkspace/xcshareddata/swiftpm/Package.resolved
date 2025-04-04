@@ -1,0 +1,15 @@
+{
+  "originHash" : "a495a60e03dd85544b903da741908eab37fc9db973e031dda9eb591557abf9dc",
+  "pins" : [
+    {
+      "identity" : "designsystem",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/walidIos/DesignSystem.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "7a344d01781edd8b38fbab9970b746679db2ad4f"
+      }
+    }
+  ],
+  "version" : 3
+}
